@@ -1,0 +1,353 @@
+*{
+  margin: 0;
+}
+.face {
+  width: 20px;
+}
+
+.twit {
+  width: 20px;
+}
+
+.inst {
+  width: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+}
+
+.header__logo {
+  font-family: 'Fascinate', cursive;
+  color: grey;
+  font-size: large;
+}
+
+.menu__logo {
+  padding-right: 20px;
+}
+
+.page {
+  padding-left: 20px;
+}
+
+.list__page {
+  font-family: 'Secular One', sans-serif;
+}
+
+.lelush {
+  float: right;
+  width: 350px;
+  margin: 7px 0 0 7px;
+  padding-right: 20px;
+}
+.story{
+  padding-top: 30px;
+}
+.sample__headline {
+  padding-left: 20px;
+  padding-top: 35px;
+}
+
+.header__sample__headline {
+  font-size: 30px;
+  font-family: 'Yellowtail', cursive;
+  padding-top: 50px;
+}
+
+.sample__header {
+  font-family: 'Indie Flower', cursive;
+  padding-top: 30px;
+}
+
+.head__sample__header {
+  font-family: 'Yellowtail', cursive;
+  padding-top: 30px;
+}
+
+.design {
+  margin-top: 100px;
+  background-color: orange;
+}
+
+.header__digital {
+  text-transform: uppercase;
+  font-family: 'Titan One', cursive;
+  font-size: 70px;
+  width: 300px;
+  margin: auto;
+  padding-top: 80px;
+  text-align: center;
+}
+
+.header__digital {
+  color: whitesmoke;
+}
+
+.design__p {
+  color: white;
+  width: 400px;
+  margin: auto;
+  padding-top: 30px;
+  line-height: 24px;
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+}
+
+.button1 {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 70px;
+}
+
+.price {
+  display: inline-block;
+  padding: 0 25px;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  height: 46px;
+  line-height: 46px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #444;
+  background-color: #fff;
+  font-family: 'Indie Flower', cursive;
+}
+
+
+.price:hover {
+  transition: all 0.3s;
+  box-shadow: 0 7px 14px rgb(65 132 144 / 40%), 0 3px 6px rgb(0 0 0 / 40%);
+}
+
+.price:active {
+  background-color: red;
+}
+
+
+.table__plan {
+  padding-top: 50px;
+  background-color: darkslategray;
+  font-family: 'Indie Flower', cursive;
+}
+
+.header__table {
+  text-align: center;
+  color: whitesmoke;
+  font-family: 'Titan One', cursive;
+  font-size: 60px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.all__table {
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 80px;
+}
+
+th,
+td {
+  text-transform: uppercase;
+  padding: 15px 80px;
+  border: 1px solid gray;
+  color: white;
+  text-align: center;
+}
+
+.table__white {
+  background-color: whitesmoke;
+  color: black;
+  padding-left: 8px;
+}
+
+.table__orange {
+  background-color: orange;
+}
+
+.table__red {
+  background-color: red;
+}
+
+.table__aqua {
+  background-color: aqua;
+}
+
+.table__dollar__orange {
+  color: orange;
+}
+
+.table__dollar__red {
+  color: red;
+}
+
+.table__dollar__aqua {
+  color: aqua;
+}
+
+.table__check2 {
+  color: red;
+}
+
+.dot__orange {
+  color: orange;
+}
+
+.table__check {
+  color: aqua;
+}
+
+.table__left {
+  padding-left: 8px;
+  text-align: left;
+}
+
+.table__btn {
+  display: inline-block;
+  padding: 0 25px;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  height: 46px;
+  line-height: 46px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #444;
+  background-color: #fff;
+  font-family: 'Indie Flower', cursive;
+}
+
+.table__btn:hover {
+  transition: all 0.3s;
+  box-shadow: 0 7px 14px rgb(65 132 144 / 40%), 0 3px 6px rgb(0 0 0 / 40%);
+}
+
+.table__btn:active {
+  background-color: orange;
+}
+.table__btn1 {
+  margin: auto;
+  display: inline-block;
+  padding: 0 25px;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  height: 46px;
+  line-height: 46px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #444;
+  background-color: #fff;
+  font-family: 'Indie Flower', cursive;
+}
+
+.table__btn1:hover {
+  transition: all 0.3s;
+  box-shadow: 0 7px 14px rgb(65 132 144 / 40%), 0 3px 6px rgb(0 0 0 / 40%);
+}
+
+.table__btn1:active {
+  background-color: red;
+}
+.table__btn2 {
+  margin: auto;
+  display: inline-block;
+  padding: 0 25px;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  height: 46px;
+  line-height: 46px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #444;
+  background-color: #fff;
+  font-family: 'Indie Flower', cursive;
+}
+
+.table__btn2:hover {
+  transition: all 0.3s;
+  box-shadow: 0 7px 14px rgb(65 132 144 / 40%), 0 3px 6px rgb(0 0 0 / 40%);
+}
+
+.table__btn2:active {
+  background-color: aqua;
+}
+.sample__img {
+  padding-top: 100px;
+  display: block;
+}
+
+.nino {
+  width: 45%;
+  position: relative;
+  float: left;
+}
+
+.text__img {
+  position: absolute;
+  left: 65px;
+  color: aqua;
+  width: 350px;
+  text-align: left;
+  top: 330%;
+  font-family: 'Caveat', cursive;
+}
+
+.bride__5 {
+  width: 55%;
+  float: right;
+}
+
+.miku {
+  float: left;
+  width: 27%;
+}
+
+.itsuki {
+  float: right;
+  width: 28%;
+}
+
+.gallery {
+  padding-top: 150px;
+  display: inline-block;
+}
+
+.yuno {
+  width: 63%;
+  padding-left: 8px;
+}
+
+.sad {
+  width: 35.44%;
+}
+
+.love {
+  float: right;
+  padding-right: 12px;
+  width: 20%;
+}
+
+.fialka {
+  width: 20%;
+  float: left;
+  padding-left: 8px;
+}
+
+.head__gallery {
+  text-align: center;
+  font-size: 80px;
+  padding-top: 106px;
+  font-family: 'Lobster', cursive;
+  color: purple;
+}
+
+.header__gallery {
+  text-align: center;
+  padding-top: 120px;
+  line-height: 25px;
+  font-family: 'Dancing Script', cursive;
+  padding-right: 19px;
+  font-size: 25px;
+  color: purple;
+}
